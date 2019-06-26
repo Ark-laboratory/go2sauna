@@ -1,0 +1,17 @@
+.header{
+	margin-bottom: 40px;
+	background-color: #4682B4;
+	width: 100vw;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.navcont{
+	display: flex;
+	flex-direction: row;
+}
+.citycont{
+	display: flex;
+	flex-direction: row;
+	margin-right: 1vw;
+}

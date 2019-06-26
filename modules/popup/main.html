@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="magnific-popup.css?1">
+	<script type="text/javascript" src="../jquery-3.4.1.js"></script>
+	<script type="text/javascript" src="../js/bootstrap.js"></script>
+	<script type="text/javascript" src="query.js"></script>
+</head>
+<body>
+<h4>Text-based:</h4>
+  <ul id="inline-popups">
+    <li><a href="#test-popup" data-effect="mfp-zoom-in">Zoom</a></li>
+    <li><a href="#test-popup" data-effect="mfp-newspaper">Newspaper</a></li>
+    <li><a href="#test-popup" data-effect="mfp-move-horizontal">Horizontal move</a></li>
+    <li><a href="#test-popup" data-effect="mfp-move-from-top">Move from top</a></li>
+    <li><a href="#test-popup" data-effect="mfp-3d-unfold">3d unfold</a></li>
+    <li><a href="#test-popup" data-effect="mfp-zoom-out">Zoom-out</a></li>
+  </ul>
+
+<!-- Popup itself -->
+<div id="test-popup" class="white-popup mfp-with-anim mfp-hide">You may put any HTML here. This is dummy copy. It is not meant to be read. It has been placed here solely to demonstrate the look and feel of finished, typeset text. Only for show. He who searches for meaning here will be sorely disappointed.</div>
+
+
+<script type="text/javascript">
+	// Inline popups
+$('#inline-popups').magnificPopup({
+  delegate: 'a',
+  removalDelay: 500, //delay removal by X to allow out-animation
+  callbacks: {
+    beforeOpen: function() {
+       this.st.mainClass = this.st.el.attr('data-effect');
+    }
+  },
+  midClick: true // allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source.
+});
+</script>
+</body>
+</html>

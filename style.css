@@ -1,0 +1,104 @@
+.header{
+	margin-bottom: 40px;
+	background-color: #4682B4;
+	width: 100vw;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+   align-items: center;
+}
+.navcont{
+	display: flex;
+	flex-direction: row;
+
+}
+.citycont{
+	display: flex;
+	flex-direction: row;
+	margin-right: 1vw;
+}
+.mainer{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin-top: 2vh;
+}
+.filter{
+	width: 30%;
+	margin-left: 1vw;
+}
+.maine{
+	width: 65%;
+	display: flex;
+	flex-direction: column;
+	align-content: space-between;
+}
+.elofcont{
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 2vh;
+}
+.name-of-elem-cont{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.cont-of-desc{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 100%;
+}
+.desc-cont{
+	display: flex;
+	flex-direction: column;
+	align-content: flex-start;
+	justify-content: flex-start;
+}
+.price{
+	width: 100%;
+	text-align: left;
+}
+.desc-table{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+}
+.types-desc{
+	display: flex;
+	flex-direction: column;
+	align-content: flex-start;
+	justify-content: flex-start;
+	width: 50%;
+	text-align: left;
+}
+.values-desc{
+	display: flex;
+	flex-direction: column;
+	align-content: flex-start;
+	justify-content: flex-start;
+	width: 50%;
+	text-align: left;
+}
+.but-cont{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+}
+.wrap{
+	padding: 2vh;
+}
+.slider-wrapper{
+	width: 70%;
+}
+.maps{
+
+}
+.fotorama1561579818121 .fotorama__nav--thumbs .fotorama__nav__frame{
+	padding:2px;
+	height:64px}
+.fotorama1561579818121 .fotorama__thumb-border{
+	height:60px;
+	border-width:2px;
+	margin-top:2px
+}

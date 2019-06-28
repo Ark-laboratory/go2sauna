@@ -1,11 +1,31 @@
+@font-face {
+    font-family: SaunaBold; /* Имя шрифта */
+    src: url(fonts/17349.otf); /* Путь к файлу со шрифтом */
+   }
+ body{
+ 	color: #666666;
+ 	font-family: sans-serif;
+ 	min-height: 100%;
+ 	position: relative;
+ }
 .header{
 	margin-bottom: 40px;
-	background-color: #4682B4;
+	background-color: #003580;
+	padding: 3px;
+	height: 11vh;
+    color: white;
 	width: 100vw;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
    align-items: center;
+}
+.text-black{
+	color: #000000;
+}
+.a-orange{
+	color: #FFC954;
+	text-decoration: none;
 }
 .navcont{
 	display: flex;
@@ -16,6 +36,7 @@
 	display: flex;
 	flex-direction: row;
 	margin-right: 1vw;
+	    padding-top: 2%;
 }
 .mainer{
 	display: flex;
@@ -54,10 +75,14 @@
 	flex-direction: column;
 	align-content: flex-start;
 	justify-content: flex-start;
+    font-size: 12px;
 }
 .price{
 	width: 100%;
 	text-align: left;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
 }
 .desc-table{
 	display: flex;
@@ -89,11 +114,13 @@
 	padding: 2vh;
 }
 .slider-wrapper{
-	width: 70%;
+	width: 58%;
+	height: 100%;
 }
 .maps{
 
 }
+
 .fotorama1561579818121 .fotorama__nav--thumbs .fotorama__nav__frame{
 	padding:2px;
 	height:64px}
@@ -101,4 +128,54 @@
 	height:60px;
 	border-width:2px;
 	margin-top:2px
+}
+
+.qwr{
+	width: 100%;
+	height: 100%
+}
+.head-cont{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+    width: 100%;
+    padding-right: 15vw;
+    padding-left: 15vw;
+    padding-top: 2vh;
+}
+
+.footer{
+	height: 35px;
+	background-color: #003580;
+	padding: 3px;
+    color: white;
+	width: 100vw;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+   align-items: center;
+}
+.maps{
+	position: relative;
+	z-index: 3;
+}
+#mapper{
+	z-index: 4;
+	position: absolute;
+	width: 100%;
+	height:0px;
+	background-color: grey;
+	box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.26);
+}
+.hr{
+	height: 100%;
+	width: 100%;
+	    border-top: 1px solid #ddd;
+}
+hr{
+	 border-top: 0px solid rgba(0, 0, 0, 0.1); */
+}
+.bbold{
+	color: #0b0b0b;
+	font-weight: 550;
 }
